@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from "react"
 import "./App.css"
-import Cart from "./components/Cart"
-import Map from "./components/Map"
+import Cart from "./Components/Cart/Cart"
+import Map from "./Components/Map"
 
 function App() {
     const getAppHeight = () => window.innerWidth >= 992 ? window.innerHeight : 400

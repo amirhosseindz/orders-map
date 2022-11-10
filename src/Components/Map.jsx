@@ -7,9 +7,7 @@ import Germany from "./Germany"
 const map = {
     zoom: 7,
     style: {
-        width: "70%",
         height: "100%",
-        float: "right"
     },
     center: {
         lat: 51,
