@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Berge bei Perleberg",
+    "zipcode": "19348",
+    "position": {
+      "lat": 53.23746,
+      "lng": 11.87077
+    },
+    "orderCount": 45,
+    "totalCount": 100
+  },
+  {
+    "name": "Pörnbach",
+    "zipcode": "85309",
+    "position": {
+      "lat": 48.6167,
+      "lng": 11.4667
+    },
+    "orderCount": 18,
+    "totalCount": 1000
+  },
+  {
+    "name": "Osterrönfeld Heidkrug, Gemeinde Osterrönfeld",
+    "zipcode": "24790",
+    "position": {
+      "lat": 54.27536,
+      "lng": 9.737535
+    },
+    "orderCount": 40,
+    "totalCount": 1000
+  },
+  {
+    "name": "Hildburghausen",
+    "zipcode": "98646",
+    "position": {
+      "lat": 50.43950110601,
+      "lng": 10.723922177567
+    },
+    "orderCount": 4,
+    "totalCount": 1000
+  },
+  {
+    "name": "Frankenfeld, Aller",
+    "zipcode": "27336",
+    "position": {
+      "lat": 52.76951,
+      "lng": 9.43078000000003
+    },
+    "orderCount": 3,
+    "totalCount": 1000
+  },
+  {
+    "name": "Karenz",
+    "zipcode": "19294",
+    "position": {
+      "lat": 53.23012,
+      "lng": 11.34384
+    },
+    "orderCount": 49,
+    "totalCount": 1000
+  },
+  {
+    "name": "Wendisch Priborn Tönchow",
+    "zipcode": "19395",
+    "position": {
+      "lat": 53.34181,
+      "lng": 12.3207600000001
+    },
+    "orderCount": 31,
+    "totalCount": 1000
+  },
+  {
+    "name": "Eßleben-Teutleben",
+    "zipcode": "99628",
+    "position": {
+      "lat": 51.1417,
+      "lng": 11.4583
+    },
+    "orderCount": 22,
+    "totalCount": 1000
+  },
+  {
+    "name": "Wenze",
+    "zipcode": "38486",
+    "position": {
+      "lat": 52.56471,
+      "lng": 11.13311
+    },
+    "orderCount": 26,
+    "totalCount": 1000
+  },
+  {
+    "name": "Nürtingen",
+    "zipcode": "72622",
+    "position": {
+      "lat": 48.6333,
+      "lng": 9.35
+    },
+    "orderCount": 24,
+    "totalCount": 1000
+  }
+]
