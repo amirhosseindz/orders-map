@@ -1,4 +1,5 @@
-import CountUp from 'react-countup';
+import {useEffect, useState, useReducer} from "react";
+import CountUp from "react-countup";
 
 const counterStyle = {
     position: "absolute",
@@ -11,8 +12,18 @@ const counterStyle = {
 }
 
 const CartCounter = ({end}) => {
+    const [lastEnd, setLastEnd] = useState(0), [start, setStart] = useReducer(() => {
+        const value = lastEnd
+        setLastEnd(end)
+        return value
+    }, 0)
+
+    useEffect(() => {
+        if (end) setStart()
+    }, [end])
+
     return (
-        <CountUp end={end} style={counterStyle} />
+        <CountUp start={start} end={end} style={counterStyle} />
     )
 }
 

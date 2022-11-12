@@ -4,7 +4,7 @@ import Product from "./Product";
 
 const lastOrderFetch = {
     url: "/last-order.json",
-    intervalTime: 1000
+    intervalTime: 3000
 }
 
 const cartStyle = {
@@ -42,9 +42,8 @@ const Cart = () => {
 
     return (
         <div style={cartStyle}>
-            {lastOrder && <Product url={lastOrder.productUrl}
-                                   name={lastOrder.productName}
-                                   onExited={() => setCartTotalCount(lastOrder.totalCount)}
+            {lastOrder && <Product order={lastOrder}
+                                   onExited={(totalCount) => setCartTotalCount(totalCount)}
             />}
 
             <CartIcon totalCount={cartTotalCount}/>

@@ -23,27 +23,27 @@ const product = {
     }
 }
 
-const Product = ({url, name, onExited}) => {
+const Product = ({order, onExited}) => {
     const [productIn, setProductIn] = useState(false)
     const productRef = useRef(null)
 
     useEffect(() => {
-        if (url) {
+        if (order) {
             setProductIn(true);
         }
-    }, [url])
+    }, [order])
 
     return (
         <Transition nodeRef={productRef}
                     in={productIn}
                     timeout={productTransitionTime}
                     onEntered={() => setProductIn(false)}
-                    onExited={onExited}
+                    onExited={() => onExited(order.totalCount)}
         >
             {(state) => (
                 <img ref={productRef}
-                     src={url}
-                     alt={name}
+                     src={order.productUrl}
+                     alt={order.productName}
                      style={{
                          ...product.style,
                          ...product.transitionStyles[state]
